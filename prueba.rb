@@ -7,9 +7,9 @@ class Person
         @last_name = last
         @age = age
         @estado = case @age
-                   when 0..18 then "Joven"
-                   when 19..30 then "Adulto joven"
-                   when 31..50 then "Mayor joven"
+                 
+                   when 18..30 then "Joven"
+                   when 31..50 then "Joven Mayor "
                    when  50..90  then "Adulto Mayor"
                    else "Error en la clasificacion"
                     end
